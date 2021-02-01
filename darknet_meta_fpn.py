@@ -85,7 +85,7 @@ class EmptyModule(nn.Module):
 
 # support route shortcut and reorg
 class Darknet(nn.Module):
-    def __init__(self, darknet_file, learnet_file,fpn_file):
+    def __init__(self, darknet_file, learnet_file):
         super(Darknet, self).__init__()
         self.blocks = darknet_file if isinstance(darknet_file, list) else parse_cfg(darknet_file)
         self.learnet_blocks = learnet_file if isinstance(learnet_file, list) else parse_cfg(learnet_file)
@@ -410,24 +410,6 @@ class Darknet(nn.Module):
                 out_filters.append(prev_filters)
                 models.append(model)
             elif block['type'] == 'region':
-		"""
-                if self.flag=='bce':
-                    from region_loss_bce import RegionLossV2
-                elif self.flag=='rebce':
-                    from region_loss_rebce import RegionLossV2
-                elif self.flag=='author':
-                    from region_loss_author import RegionLossV2
-                elif self.flag=='reweight':
-                    from region_loss_reweight import RegionLossV2
-                elif self.flag=='focal':
-                    from region_loss_focal import RegionLossV2
-                elif self.flag=='refocal':
-                    from region_loss_refocal import RegionLossV2
-                elif self.flag=='rank':
-                    from region_loss import RegionLossV2
-                elif self.flag=='ours':
-                    from region_loss_ours import RegionLossV2
-		"""
                 loss = RegionLossV2()
                 anchors = block['anchors'].split(',')
                 loss.anchors = [float(i) for i in anchors]
