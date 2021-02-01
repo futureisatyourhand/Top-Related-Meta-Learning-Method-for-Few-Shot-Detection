@@ -1,0 +1,6 @@
+aeroplane,bird
+cow,horse,cat,sheep,dog
+sofa,chair
+tvmonitor,pottedplant,diningtable
+boat,bicycle,train,car,bus,motorbike
+bottle,person
