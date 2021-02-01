@@ -30,8 +30,8 @@ Many meta-learning methods are proposed for few-shot detection. However, previou
 If you have any questions,please contact us at liqian18s@ict.ac.cn
 
 # Train and Test
-our novel set1 is "boat,cat,mbike,sheep,sofa"
-novel set2 is "bird,bus,cow,mbike,sofa"
+our novel set1 is "boat,cat,mbike,sheep,sofa"  
+novel set2 is "bird,bus,cow,mbike,sofa"  
 novel set3 is "aero,bottle,cow,horse,sofa"
 
 Model training and testing and configuration are the same as https://github.com/bingykang/Fewshot_Detection
