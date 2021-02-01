@@ -16,7 +16,27 @@ Our code is based on https://github.com/bingykang/Fewshot_Detection and develope
 
 ![image](https://github.com/futureisatyourhand/Top-Related-Meta-Learning-Method-for-Few-Shot-Detection/blob/main/%E5%9B%BE%E7%89%87/1.png)
 
+# Grouping for VOC and COCO
+ A group in a line
+```
+aeroplane,bird
+cow,horse,cat,sheep,dog
+sofa,chair
+tvmonitor,pottedplant,diningtable
+boat,bicycle,train,car,bus,motorbike
+bottle,person
+```
 
+```
+chair,sofa,pottedplant,bed,diningtable,toilet,tvmonitor,microwave,oven,toaster,sink,refrigerator,book
+bottle,wine glass,cup,fork,knife,spoon,bowl,banana,apple,sandwich,orange,broccoli,carrot,hot dog,pizza,donut,cake,vase
+person,bicycle,car,motorbike,aeroplane,boat,horse,skis,snowboard,kite,skateboard,surfboard
+bench,cat,dog,bear,backpack,umbrella,handbag,tie,suitcase,frisbee,cell phone,scissors,teddy bear,hair drier,toothbrush
+sports ball,baseball bat,baseball glove,tennis racket
+bus,train,truck,traffic light,fire hydrant,stop sign,parking meter,clock
+laptop,mouse,remote,keyboard
+bird,sheep,cow,elephant,zebra,giraffe
+```
 
 # TCL-C and category-based grouping mechanism applying for https://github.com/bingykang/Fewshot_Detection
 ![image](https://github.com/futureisatyourhand/Top-Related-Meta-Learning-Method-for-Few-Shot-Detection/blob/main/%E5%9B%BE%E7%89%87/2.png)
