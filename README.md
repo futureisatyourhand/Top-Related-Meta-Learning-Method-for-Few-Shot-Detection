@@ -14,11 +14,12 @@ Our code is based on https://github.com/bingykang/Fewshot_Detection and develope
 
 # Contribution
 
+![image][https://github.com/futureisatyourhand/Top-Related-Meta-Learning-Method-for-Few-Shot-Detection/blob/main/%E5%9B%BE%E7%89%87/1.png]
 
 
 
 # TCL-C and category-based grouping mechanism applying for https://github.com/bingykang/Fewshot_Detection
-
+![image][https://github.com/futureisatyourhand/Top-Related-Meta-Learning-Method-for-Few-Shot-Detection/blob/main/%E5%9B%BE%E7%89%87/2.png]
 
 
 
