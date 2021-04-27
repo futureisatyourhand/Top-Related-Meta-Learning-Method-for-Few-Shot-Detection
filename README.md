@@ -11,6 +11,9 @@ Top-Related-Meta-Learning-Method-for-Few-Shot-Detection,2020
 Qian Li*, Nan Guo, Xiaochun Ye, Duo Wang, Dongrui Fan and Zhimin Tang (* main contribution)
 
 Our code is based on https://github.com/bingykang/Fewshot_Detection and developed with Python 2.7 & PyTorch 0.3.1.
+```
+The optimization of this paper is realized by replacing the classification loss with RankingLossFunc of loss.py and adding loss(i.e., KL_LossFunc of the loss.py) for the meta-feature vectors.
+```
 
 # Contribution
 
